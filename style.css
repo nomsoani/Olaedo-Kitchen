@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.brand-logo {
+    font-family: 'Brush Script MT', cursive;
+    font-weight: 900;
+    font-size: 10px;
+    margin-left: 4rem;
+}
+
+
+
+.nav-a {
+    font-size: large;
+    font-weight: 500;
+    margin-right: 4rem;
+    justify-content: space-between;
+}
+
+
+.reg-btn {
+    margin-left: 100rem;
+}
+
+
+/*      hero section       */
+
+h3 {
+    font-weight: 800;
+    font-size: 6rem;
+}
+
+/*      card section        */ 
+
+.cards {
+    display: grid;
+    margin-top: 100px;
+    grid-template-columns: repeat(auto-fit, 280px);
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 6rem;
+    
+}
+
+.cards-1 {
+    display: grid;
+    margin-top: 100px;
+    grid-template-columns: repeat(auto-fit, 280px);
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 6rem;
+    
+}
+
+
+.card {
+    width: 350px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.card-image img {
+    border-top-left-radius: 1rem;
+}
+
+/* accordion section */
+
+.acc-sec {
+    height: 80vh;
+  
+}
+
+
+.acc-text {
+    margin-top: 20rem;
+}
+
+
+.accordion {
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+    place-items: center;
+    margin: auto;
+}
+
+/*         footer       */
+
+.page-footer {
+    background-color: rgb(12,24,37);
+}
+
+.page-footer h4{
+    font-family: 'Brush Script MT', cursive;
+    font-weight: 1200;
+}
+
+
+
+
+
+/*    media query    */
+
+
+
+@media screen and (max-width: 992px) {
+    .brand-logo {
+        margin: auto;
+    }
+
+  }
+
+  @media screen and (max-width: 798px) and (min-width: 744px) {
+    .brand-logo {
+        margin: auto;
+    }
+
+    .cards {
+        margin-top: 200px;
+        width: 80vw;
+        margin-left: 2rem;
+    }
+    
+    .cards-1 {
+        width: 80vw;
+        margin-left: 2rem;
+    }
+    
+  }
+
+  @media screen and (max-width: 425px) {
+    
+    .card {
+        width: 250px;
+    }
+  }

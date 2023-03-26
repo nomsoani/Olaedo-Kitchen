@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+box-sizing: border-box;
+background-color: rgb(12, 24, 37);
+}
+
+.container {
+    font-family: 'Brush Script MT', cursive;
+}
+
+.text-xl {
+    font-size: 2rem;
+    margin: auto;
+}
+
+.text {
+    margin-top: 7rem;
+}
+
+.carousel {
+    width: 500px;
+    bottom: -100px;
+}
+
+.carousel-item img {
+    border-radius: 4rem;
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+    .text-xl{
+        margin: auto;
+    }
+}
